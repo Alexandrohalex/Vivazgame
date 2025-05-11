@@ -105,3 +105,9 @@ function gameLoop() {
 
 createBots();
 gameLoop();
+
+// Expõe funções para os botões HTML
+window.moveLeft = moveLeft;
+window.moveRight = moveRight;
+window.shoot = shoot;
+window.jump = jump;
