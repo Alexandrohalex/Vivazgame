@@ -1,22 +1,25 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Vivaz Trem Battle Royale</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo Vivaz Trem</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <canvas id="gameCanvas"></canvas>
-    <div id="hud">
-        <button id="moveLeft">◀</button>
-        <button id="moveRight">▶</button>
-        <button id="shoot">🔫</button>
-        <button id="jump">⤴</button>
-        <p id="status">Iniciando jogo...</p>
-    </div>
-    <audio id="bgm" src="assets/audio/bgm.mp3" loop autoplay></audio>
-    <script src="script.js"></script>
+  <h1>Jogo Vivaz Trem</h1>
+  <p id="loading">Iniciando jogo...</p>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+  <div id="controls">
+    <button onclick="moveLeft()">◀️</button>
+    <button onclick="moveRight()">▶️</button>
+    <button onclick="shoot()">🔫</button>
+    <button onclick="jump()">↗️</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
