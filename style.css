@@ -1,24 +1,29 @@
+body {
+  background-color: #333;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-body, html {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    overflow: hidden;
+canvas {
+  background-color: #222;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #fff;
 }
-#gameCanvas {
-    width: 100vw;
-    height: 100vh;
-    display: block;
-    background: #444;
+
+#controls {
+  margin: 10px;
 }
-#hud {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-}
-#hud button {
-    font-size: 20px;
-    margin: 5px;
-    padding: 10px;
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
 }
