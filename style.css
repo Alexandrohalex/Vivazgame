@@ -1,0 +1,24 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    overflow: hidden;
+}
+#gameCanvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: #444;
+}
+#hud {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+#hud button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
