@@ -9,7 +9,8 @@ let isJumping = false;
 let jumpVelocity = 0;
 const gravity = 0.8;
 
-document.getElementById('loading').style.display = 'none';
+document.getElementById('loading').textContent = '';
+
 
 function createBots(qty = 3) {
   bots = [];
